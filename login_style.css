@@ -52,14 +52,19 @@ border-radius:30px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
-
+  transition: all 0.2s;
 
 
 }
-.form button:hover,.form button:active,.form button:focus {
+.form button:hover,.form button:focus {
   background: #148f77;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
 }
-
+.form button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+}
 
 .form .message {
   
