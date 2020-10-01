@@ -10,6 +10,7 @@
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
+
 }
 .form {
   position: relative;
@@ -32,6 +33,7 @@
   padding: 15px;
   box-sizing: border-box;
   font-size: 14px;
+border-radius:10px;
   
 }
 .form button {
@@ -43,12 +45,14 @@
   background: #17a589;
   width: 100%;
   border: 0;
+border-radius:30px;
   margin: 0px 0px 8px;
   padding: 15px;
   color: #FFFFFF;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
+
 
 
 }
